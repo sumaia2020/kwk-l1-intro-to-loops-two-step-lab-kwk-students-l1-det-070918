@@ -10,7 +10,7 @@ def first_steps
     sleep(0.5)
    puts "stop" 
     sleep(1)
-    break 
+    
 end
 end
 def a_few_more_steps
@@ -30,8 +30,6 @@ def a_few_more_steps
 puts  "Left foot crosses over right"
 puts "Right foot steps right"
 puts "turn"
-sleep(1)
-break  
 end
 end 
 
@@ -40,12 +38,12 @@ def how_many_steps?
   steps = 0
   loop do 
     steps += 1 
-    puts "#{steps}"
+    puts steps
     if steps %2 ==0 
       puts "Left"
     else 
       puts "Right"
-      sleep(0.5)
+      
     
 end
 end
