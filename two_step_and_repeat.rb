@@ -43,8 +43,7 @@ def how_many_steps?
       puts "Left"
     else 
       puts "Right"
-      
-    
+how_many_steps?
 end
 end
 end 
